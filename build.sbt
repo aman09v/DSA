@@ -6,3 +6,4 @@ lazy val root = (project in file("."))
   .settings(
     name := "DSA"
   )
+libraryDependencies += "org.typelevel" %% "cats-core" % "2.7.0"
